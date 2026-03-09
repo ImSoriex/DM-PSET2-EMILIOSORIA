@@ -1,4 +1,3 @@
-<img width="301" height="430" alt="Captura de pantalla 2026-03-09 000023" src="https://github.com/user-attachments/assets/798dae55-5274-4fc2-81aa-45ba69fad106" />
 # PSet 2 — Data Warehouse de Viajes en Taxi
 
 ## Autor
