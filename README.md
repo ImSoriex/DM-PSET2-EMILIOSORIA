@@ -138,7 +138,11 @@ La tabla de hechos está **particionada por fecha de recogida (pickup date)**.
 
 Ejemplo de particiones:
 
-[ INSERT SCREENSHOT OF PARTITIONS HERE ]
+<img width="1339" height="786" alt="image" src="https://github.com/user-attachments/assets/89b5aced-7e0d-4f7e-8f9a-6cceefff6a13" />
+<img width="1080" height="639" alt="image" src="https://github.com/user-attachments/assets/a110a686-21c2-46ff-a198-61af502ae63e" />
+<img width="1147" height="340" alt="image" src="https://github.com/user-attachments/assets/66e48379-2e91-4246-a269-f904c27c68a4" />
+<img width="1104" height="417" alt="image" src="https://github.com/user-attachments/assets/15f9a0ec-ebbc-44ee-9157-1842c81e7751" />
+
 
 
 ---
@@ -237,10 +241,12 @@ Luego acceder a los pipelines de Mage y ejecutarlos en orden.
 project/
 │
 ├── docker-compose.yml
-├── dbt/
-├── mage/
+├── Dockerfile
+├── scheduler_data/
 ├── notebooks/
 ├── README.md
+├── create_partitions.sql
+├── requirements.txt
 ```
 
 ---
