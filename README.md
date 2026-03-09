@@ -132,16 +132,18 @@ Almacena todos los eventos a nivel de viaje.
 
 ---
 
-# 5. Particionamiento de Tablas
+# 5. Particionamiento de Tablas y Explain 
 
 La tabla de hechos está **particionada por fecha de recogida (pickup date)**.
 
-Ejemplo de particiones:
 
 <img width="1339" height="786" alt="image" src="https://github.com/user-attachments/assets/89b5aced-7e0d-4f7e-8f9a-6cceefff6a13" />
 <img width="1147" height="340" alt="image" src="https://github.com/user-attachments/assets/66e48379-2e91-4246-a269-f904c27c68a4" />
-<img width="1104" height="417" alt="image" src="https://github.com/user-attachments/assets/15f9a0ec-ebbc-44ee-9157-1842c81e7751" />
+<img width="1104" height="417" alt="image" src="https://github.com/user-attachments/assets/15f9a0ec-ebbc-44ee-9157-1842c81e7751" />\
+<img width="1080" height="300" alt="Captura de pantalla 2026-03-09 002003" src="https://github.com/user-attachments/assets/156b0410-3d6c-41a7-b8b2-b2e325f5d1eb" />
 
+<img width="1253" height="709" alt="image" src="https://github.com/user-attachments/assets/ffef2295-c670-4fb8-b7ff-e629b19acba9" />
+<img width="1093" height="593" alt="image" src="https://github.com/user-attachments/assets/7df98d2c-8840-4656-8cd9-17f905921f39" />
 
 
 ---
@@ -216,6 +218,7 @@ Las consultas fueron implementadas usando **psycopg2 en un Jupyter Notebook**.
 
 # 10. Resultados
 
+Los resultados con sus respectivos analisis se encuentran en notebooks/data_analysis.ipynb
 
 ---
 
