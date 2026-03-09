@@ -18,7 +18,8 @@ blocks:
 - all_upstream_blocks_executed: false
   color: null
   configuration: {}
-  downstream_blocks: []
+  downstream_blocks:
+  - trigger_silver
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -81,6 +82,7 @@ blocks:
   type: custom
   upstream_blocks:
   - taxi_zones_export
+  - taxi_export
   uuid: trigger_silver
 cache_block_output_in_memory: false
 callbacks: []
