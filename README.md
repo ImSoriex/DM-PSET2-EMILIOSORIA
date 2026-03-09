@@ -1,8 +1,8 @@
-
+<img width="301" height="430" alt="Captura de pantalla 2026-03-09 000023" src="https://github.com/user-attachments/assets/798dae55-5274-4fc2-81aa-45ba69fad106" />
 # PSet 2 — Data Warehouse de Viajes en Taxi
 
 ## Autor
-Nombre: Emilio Soria - 00326990
+Emilio Soria - 00326990
 
 ---
 
@@ -46,9 +46,11 @@ Datos Crudos → Bronze → Silver → Gold → Analytics
 
 # 3. Arquitectura del Pipeline
 
-*(Insertar captura de pantalla del DAG del pipeline aquí)*
+<img width="493" height="613" alt="Captura de pantalla 2026-03-09 000015" src="https://github.com/user-attachments/assets/c5bf17a2-8348-4f87-b4af-cf62978d610c" />
+<img width="301" height="430" alt="Captura de pantalla 2026-03-09 000023" src="https://github.com/user-attachments/assets/99404d23-cce2-4f82-b964-853bdb9022a9" />
+<img width="490" height="452" alt="Captura de pantalla 2026-03-09 000103" src="https://github.com/user-attachments/assets/087c7f29-7674-4c2b-a872-c09e818a29de" />
 
-[ INSERT IMAGE HERE ]
+
 
 Orden del pipeline:
 
@@ -135,24 +137,10 @@ Almacena todos los eventos a nivel de viaje.
 
 La tabla de hechos está **particionada por fecha de recogida (pickup date)**.
 
-Ejemplo:
-
-```sql
-CREATE TABLE gold.fct_trips (
-    ...
-)
-PARTITION BY RANGE (pickup_date);
-```
-
 Ejemplo de particiones:
 
-```
-gold.fct_trips_2024_01
-gold.fct_trips_2024_02
-gold.fct_trips_2024_03
-```
-
 [ INSERT SCREENSHOT OF PARTITIONS HERE ]
+
 
 ---
 
@@ -206,8 +194,7 @@ tests:
   - not_null
   - accepted_values
 ```
-
-[ INSERT SCREENSHOT OF SUCCESSFUL TESTS ]
+<img width="843" height="722" alt="image" src="https://github.com/user-attachments/assets/cc2c5a4b-bc29-459d-ae05-bb5f55d12e33" />
 
 ---
 
