@@ -1,0 +1,1 @@
+{"service_type": "yellow", "source_month": "2024-09", "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-09.parquet", "path": "/data/bronze_files/yellow/yellow_2024-09.parquet", "status": "exists", "error": null, "bytes": 61170186}

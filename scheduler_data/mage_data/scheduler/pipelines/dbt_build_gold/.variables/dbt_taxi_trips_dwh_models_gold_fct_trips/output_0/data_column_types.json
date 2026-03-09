@@ -1,0 +1,1 @@
+{"trip_key": "int64", "pickup_date_key": "int64", "pickup_date": "date", "pu_zone_id": "int64", "do_zone_id": "int64", "service_type": "str", "payment_type": "int64", "vendor_id": "int64", "passenger_count": "int64", "trip_distance": "Decimal", "total_amount": "Decimal"}

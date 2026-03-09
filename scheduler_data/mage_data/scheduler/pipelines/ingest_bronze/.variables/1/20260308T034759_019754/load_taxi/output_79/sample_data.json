@@ -1,0 +1,1 @@
+{"service_type": "green", "source_month": "2025-04", "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-04.parquet", "path": "/data/bronze_files/green/green_2025-04.parquet", "status": "downloaded", "error": null, "bytes": 1269227}
